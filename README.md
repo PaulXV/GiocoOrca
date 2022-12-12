@@ -1,2 +1,2 @@
-# ProgettoJava
-Qui ci sarà il progetto "Gioco dell'Orca", sivluppato dal gurppo Brugnola, Fasano e Meroni
+# Ramo di Brugnola Paolo
+Qui ci saràla parte di codice sviluppata da Brugnola Paolo
