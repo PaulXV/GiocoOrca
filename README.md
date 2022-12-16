@@ -1,2 +1,2 @@
-# Ramo di Brugnola Paolo
-Qui ci saràla parte di codice sviluppata da Brugnola Paolo
+# MODIFICHE
+Qui ci saranno le varie modifiche fatte al programma da parte dei vari componenti del gruppo.
