@@ -1,0 +1,301 @@
+"Quando ti viene fornita una domanda, inserisci da tastiera la lettera con la risposta corretta tra quelle proposte\n" (da mettere nelle regole)
+
+1 giusta: c
+"Qual è la capitale dell'Italia?\n"
+"a) Milano\n"
+"b) Udine\n"
+"c) Roma\n"
+
+2 giusta: a
+"Qual è lo stato con più persone al mondo?\n"
+"a) Cina\n"
+"b) India\n"
+"c) Stati Uniti\n"
+
+3 giusta: b
+"Di che colore era il cavallo di Napoleone?\n"
+"a) Grigio\n"
+"b) Bianco\n"
+"c) Nero\n"
+
+4 giusta: c
+"Dove si trova Foggia?\n"
+"a) Calabria\n"
+"b) Molise\n"
+"c) Puglia\n"
+
+5 giusta: b
+"Come si chiama l'azienda informatica che ha come logo una mela?\n"
+"a) Melinda\n"
+"b) Apple\n"
+"c) Mac\n"
+
+6 giusta: a
+"Chi ha vinto l'ultimo mondiale di calcio?\n"
+"a) Argentina\n"
+"b) Francia\n"
+"c) Bangladesh\n"
+
+7 giusta: b
+"Qual è il giorno dell'anno in cui si festeggia il Natale?\n"
+"a) 24 Dicembre\n"
+"b) 25 Dicembre\n"
+"c) 26 Dicembre\n"
+
+8 giusta: a
+"In quale occasione si usa mettere una cicogna fuori dalla porta di casa?\n"
+"a) Quando nasce un bambino\n"
+"b) A Natale\n"
+"c) Dopo il matrimonio\n"
+
+9 giusta: b
+"In che anni si svolse la Prima guerra mondiale?\n"
+"a) 1915-1918\n"
+"b) 1914-1918\n"
+"c) 1914-1919\n"
+
+10 giusta: a
+"In che anni si svolse la Seconda guerra mondiale?\n"
+"a) 1939-1945\n"
+"b) 1940-1945\n"
+"c) 1939-1944\n"
+
+11 giusta: c
+"In che anno venne scoperta l'America?\n"
+"a) 1494\n"
+"b) 1482\n"
+"c) 1492\n"
+
+12 giusta: a
+"In che anni avvenne la Rivoluzione francese?\n"
+"a) 1789-1799\n"
+"b) 1691-1699\n"
+"c) 1769-1779\n"
+
+13 giusta: b
+"Quanto fa 2 + 2 * 4 / 2?\n"
+"a) 5\n"
+"b) 6\n"
+"c) 8\n"
+
+14 giusta: c
+"Quanto fa 1500 / 0?\n"
+"a) 0\n"
+"b) 1500\n"
+"c) impossibile\n"
+
+15 giusta: a
+"Quanto fa 0 / 2?\n"
+"a) 0\n"
+"b) impossibile\n"
+"c) 2\n"
+
+16 giusta: b
+"In che anno l'Italia vinse l'ultimo mondiale?\n"
+"a) 2020\n"
+"b) 2006\n"
+"c) 1982\n"
+
+17 giusta: c
+"Chi ha vinto Sanremo 2022?\n"
+"a) Gianni Morandi\n"
+"b) Elisa\n"
+"c) Mahmood e Blanco\n"
+
+18 giusta: b
+"Quali sono i doni che i Re Magi portarono a Gesù?\n"
+"a) oro, incenso, birra\n"
+"b) oro, incenso, mirra\n"
+"c) diamanti, incenso, mirra\n"
+
+19 giusta: a
+"Il mese di gennaio in che stagione si trova?\n"
+"a) Inverno\n"
+"b) Autunno\n"
+"c) Primavera\n"
+
+20 giusta: b
+"In che stagione si trova il mese di maggio?\n"
+"a) Autunno\n"
+"b) Primavera\n"
+"c) Estate\n"
+
+21 giusta: c
+"In che stagione si trova il mese di dicembre?\n"
+"a) Autunno\n"
+"b) Inverno\n"
+"c) Autunno e Inverno\n"
+
+22 giusta: b
+"Cosa succede premendo alt + f4 sul computer?\n"
+"a) Aumenta le prestazione del computer\n"
+"b) Si chiude la pagina o l'applicazione su cui si ci trova\n"
+"c) Si apre il manuale per l'utente\n"
+
+23 giusta: a
+"Cosa succede scrivendo 'logoff' e premendo invio sul terminale?\n"
+"a) Esegue la disconessione da quel account\n"
+"b) Spegne il computer\n"
+"c) Crea un logo\n"
+
+24 giusta: b
+"Come si chiama il pittore che ha disegnato la Gioconda?\n"
+"a) Giotto\n"
+"b) Leonardo Da Vinci\n"
+"c) Van Gogh\n"
+
+25 giusta: c
+"Come si chiama il pittore famoso per aver disegnato un cerchio perfetto?\n"
+"a) Leonardo Da Vinci\n"
+"b) Van Gogh\n"
+"c) Giotto\n"
+
+26 giusta: b
+"Qual è la traduzione in italiano di 'mouse'?\n"
+"a) Mai\n"
+"b) Topo\n"
+"c) Misero\n"
+
+27 giusta: a
+"In che anno è stato inventato il primo telefono?\n"
+"a) 1871\n"
+"b) 1907\n"
+"c) 1859\n"
+
+28 giusta: a
+"In che anno è stato inventato Whatsapp?\n"
+"a) 2009\n"
+"b) 2012\n"
+"c) 2007\n"
+
+29 giusta: c
+"In che anno venne rilasciato Google?\n"
+"a) 2000\n"
+"b) 1992\n"
+"c) 1997\n"
+
+30 giusta: b
+"In che anno è stata creata la Coca Cola?\n"
+"a) 1904\n"
+"b) 1886\n"
+"c) 1924\n"
+
+31 giusta: a
+"In che anno è stata inventata la Nutella?\n"
+"a) 1964\n"
+"b) 1952\n"
+"c) 1985\n"
+
+32 giusta: b
+"Dove si trova la ruota panoramica più grande al mondo?\n"
+"a) Londra\n"
+"b) Dubai\n"
+"c) Cina\n"
+
+33 giusta: c
+"Dove si trova il grattacielo più grande al mondo?\n"
+"a) Cina\n"
+"b) New York\n"
+"c) Dubai\n"
+
+34 giusta: a
+"In che continente si trova la Colombia?\n"
+"a) America\n"
+"b) Africa\n"
+"c) Asia\n"
+
+35 giusta: b
+"In che continente si trova la Bielorussia?\n"
+"a) Russia\n"
+"b) Europa\n"
+"c) America\n"
+
+36 giusta: c
+"Qual è la formula chimica dell'acqua?\n"
+"a) HO2\n"
+"b) H2O2\n"
+"c) H2O\n"
+
+37 giusta: b
+"Qual è il primo elemento della tavola periodica?\n"
+"a) Elio\n"
+"b) Idrogeno\n"
+"c) Litio\n"
+
+38 giusta: a
+"Qual è l'elemento principale che compone l'aria?\n"
+"a) Azoto\n"
+"b) Ossigeno\n"
+"c) argon\n"
+
+39 giusta: c
+"In che squadra gioca attualmente Messi?\n"
+"a) Barcellona\n"
+"b) Real Madrid\n"
+"c) Paris-Saint-Germain\n"
+
+40 giusta: b
+"Chi scrisse la Divina Commedia?\n"
+"a) Giacomo Leopardi\n"
+"b) Dante Alighieri\n"
+"c) Ludovico Ariosto\n"
+
+41 giusta: a
+"Chi scrisse l'Odissea?\n"
+"a) Omero\n"
+"b) Dante Alighieri\n"
+"c) Ludovico Ariosto\n"
+
+42 giusta: b
+"Quante stelle ci sono nella bandiera americana?\n"
+"a) 49\n"
+"b) 50\n"
+"c) 52\n"
+
+43 giusta: c
+"Quante strisce ci sono nella bandiera americana?\n"
+"a) 11\n"
+"b) 15\n"
+"c) 13\n"
+
+44 giusta: a
+"Quanti giorni ci vogliono perhè la Terra compia un giro completo attorno al Sole?\n"
+"a) 365\n"
+"b) 7\n"
+"c) 1\n"
+
+45 giusta: b
+"Qual è la capitale della Francia?\n"
+"a) Nizza\n"
+"b) Parigi\n"
+"c) Ginevra\n"
+
+46 giusta: c
+"Qual è la capitale del Brasile?\n"
+"a) Rio de Janeiro\n"
+"b) San Paolo\n"
+"c) Brasilia\n"
+
+47 giusta: a
+"Qual è la capitale del Canada?\n"
+"a) Ottawa\n"
+"b) Vancouver\n"
+"c) Brochet\n"
+
+48 giusta: c
+"Qual è la capitale della Norvegia?\n"
+"a) Helsinki\n"
+"b) Stoccolma\n"
+"c) Oslo\n"
+
+49 giusta: b
+"Qual è il punto più basso della Terra?\n"
+"a) Mar Nero\n"
+"b) Fossa delle Marianne\n"
+"c) Etna\n"
+
+50 giusta: c
+"Chi scrisse Harry Potter?\n"
+"a) Ernest Hemingway\n"
+"b) George Orwell\n"
+"c) J.K. Rowling\n"
