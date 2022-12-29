@@ -16,11 +16,23 @@ public class Tabellone
 		return lunghezza == 0;
 	}
 	
+	public void inserisciPrimo(int elemento){
+        primo = new Casella(elemento,primo, null);
+        if (vuota())
+            ultimo = primo;
+        lunghezza++;
+    }
+	
 	public void inserisciCasella(Casella c)
 	{
-		primo = c;
 		if (vuota())
-			ultimo = primo;
+            inserisciPrimo(c.getPosizione());
+        else {
+            ultimo.setSuccessivo(new Casella(c.getPosizione(),ultimo.getPrecedente(), null));
+            ultimo = ultimo.getSuccessivo();
+            lunghezza++;
+        }
+		
 		lunghezza++;
 	}
 	
@@ -30,8 +42,10 @@ public class Tabellone
 		String elementi = "";
 		for(int i=0; i<lunghezza; i++)
 		{
-			elementi += "" + cas.getPosizione() + " ";
+			elementi += "" + cas.getPosizione() + " \n";
 			cas = cas.getSuccessivo();
+			if(cas == null)
+				break;
 		}
 		
 		return elementi;
@@ -46,17 +60,25 @@ public class Tabellone
     }
 	
 	/**
-	 * Funzione per spostare la casella s di num posizioni
-	 * @param num Numero di caselle che la casella s deve essere spostata
+	 * Funzione per spostare la Casella s di num posizioni
+	 * @param pos Numero di caselle che la casella s deve essere spostata
 	 * @param s Casella che deve essere spostata
+	 * @param avanti Se la casella deve essere spostata in avanti o indietro
 	 */
-	public void sposta(int num, Casella s)
+	public void sposta(int pos, int CasellaDaSpostare, boolean avanti)
 	{
-		Casella nuovoNodo = new Casella(s.getPosizione());
-		Casella precedente = casellaIn(num-1);
-		Casella seguente = precedente.getSuccessivo();
-        precedente.setSuccessivo(nuovoNodo);
-        nuovoNodo.setSuccessivo(seguente);
-        lunghezza++;
+		if(avanti) {
+			Casella precedente = casellaIn(pos);
+			Casella seguente = precedente.getSuccessivo();
+			Casella nuova = new Casella(CasellaDaSpostare, precedente, seguente);
+		    precedente.setSuccessivo(nuova);
+		    nuova.setSuccessivo(seguente);
+		}
+		
+		//elimina la Casella che è stata spostata
+		Casella precedente = casellaIn(CasellaDaSpostare-1);
+		Casella daEliminare = precedente.getSuccessivo();
+        precedente.setSuccessivo(daEliminare.getSuccessivo());
+
 	}
 }

@@ -4,11 +4,16 @@ public class Casella
 	private Casella successivo;
 	private Casella precedente;
 	
-	Casella(int pos)
+	Casella(int pos, Casella precedente, Casella successivo)
 	{
 		posizione = pos;
+		
 		if(pos == 0)
-			precedente = null;
+			this.precedente = null;
+		else
+			this.precedente = precedente;
+		
+		this.successivo = successivo;
 	}
 	
 	public int getPosizione()	{return posizione;}
