@@ -3,14 +3,12 @@ class Giocatore {
     private int punteggio;
     private char pedina;
     private String domandeFatte[];
-    private int x;
-    private int y;
+    private Casella casGiocatore;
  
-    public Giocatore(String nome, char pedina, int x, int y) {
+    public Giocatore(String nome, char pedina) {
         this.nome = nome;
         this.pedina = pedina;
-        this.x = x;
-        this.y = y;
+
     }
  
     public String getNome() {
@@ -41,9 +39,10 @@ class Giocatore {
 		this.domandeFatte = domandeFatte;
 	}
 	
-	  public int[] getPosizione() {
-	        int[] posizione = {x, y};
-	        return posizione;
+	  public Casella getPosizione() {
+	        return casGiocatore;
 	    }
     
-}
+	  public Casella setPosizione(Casella casGiocatore) {
+		  this.casGiocatore = casGiocatore;
+	  }
