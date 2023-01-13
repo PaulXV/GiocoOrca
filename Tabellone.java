@@ -11,10 +11,7 @@ public class Tabellone
 		lunghezza = 0;
 	}
 	
-	public boolean vuota()
-	{
-		return lunghezza == 0;
-	}
+	public boolean vuota()	{return lunghezza == 0;}
 	
 	public void inserisciPrimo(int elemento){
         primo = new Casella(elemento,primo, null);
@@ -28,8 +25,9 @@ public class Tabellone
 		if (vuota())
             inserisciPrimo(c.getPosizione());
         else {
-            ultimo.setSuccessivo(new Casella(c.getPosizione(),ultimo.getPrecedente(), null));
-            ultimo = ultimo.getSuccessivo();
+            ultimo.setSuccessivo(c);
+            c.setPrecedente(ultimo);
+            ultimo = c;
             lunghezza++;
         }
 		
@@ -61,24 +59,41 @@ public class Tabellone
 	
 	/**
 	 * Funzione per spostare la Casella s di num posizioni
-	 * @param pos Numero di caselle che la casella s deve essere spostata
+	 * @param pos Numero della casella in cui deve essere spostata
 	 * @param s Casella che deve essere spostata
 	 * @param avanti Se la casella deve essere spostata in avanti o indietro
 	 */
-	public void sposta(int pos, int CasellaDaSpostare, boolean avanti)
-	{
-		if(avanti) {
-			Casella precedente = casellaIn(pos);
-			Casella seguente = precedente.getSuccessivo();
-			Casella nuova = new Casella(CasellaDaSpostare, precedente, seguente);
-		    precedente.setSuccessivo(nuova);
-		    nuova.setSuccessivo(seguente);
-		}
+	public void sposta(int pos, Casella CasellaDaSpostare, boolean avanti)
+	{	
 		
-		//elimina la Casella che è stata spostata
-		Casella precedente = casellaIn(CasellaDaSpostare-1);
-		Casella daEliminare = precedente.getSuccessivo();
-        precedente.setSuccessivo(daEliminare.getSuccessivo());
+		//manca un if in cui controllo che non sia in posizione primo o ultimo
+		
+		Casella precedente = CasellaDaSpostare.getPrecedente();
+		Casella successivo = CasellaDaSpostare.getSuccessivo();
+		precedente.setSuccessivo(successivo);
+		
+		if(avanti)
+		{
+			pos = CasellaDaSpostare.getPosizione()+pos-1;
+			
+			Casella nuovaPrecedente = casellaIn(pos-1);
+			Casella nuovaSuccessiva = casellaIn(pos);
+			CasellaDaSpostare.setPrecedente(nuovaPrecedente);
+			CasellaDaSpostare.setSuccessivo(nuovaSuccessiva);
+			nuovaPrecedente.setSuccessivo(CasellaDaSpostare);
+			nuovaSuccessiva.setPrecedente(CasellaDaSpostare);
+		}
+		else
+		{			
+			pos = CasellaDaSpostare.getPosizione()-pos+1;
+			
+			Casella nuovaPrecedente = casellaIn(pos-1);
+			Casella nuovaSuccessiva = casellaIn(pos);
+			CasellaDaSpostare.setPrecedente(nuovaPrecedente);
+			CasellaDaSpostare.setSuccessivo(nuovaSuccessiva);
+			nuovaPrecedente.setSuccessivo(CasellaDaSpostare);
+			nuovaSuccessiva.setPrecedente(CasellaDaSpostare);
+		}
 
 	}
 }
