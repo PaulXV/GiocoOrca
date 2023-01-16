@@ -1,0 +1,21 @@
+"Quando arrivi su una determinata casella ti appirirà un imprevisto, questo potrà avvantaggiarti o svantaggiarti"
+
+1 "Raddoppia i punti"
+
+2 "Torna indietro di 3 caselle"
+
+3 "Avanza di 3 caselle"
+
+4 "Dimezza i punti"
+
+5 "Togli 10 punti all'avversario "
+
+6 "Rimani fermo per 2 turni "
+
+7 "Rimani fermo per 1 turno "
+
+8 "Il t uo avversario ti prende 20 punti "
+
+9 "Blocca il tuo avversario per 1 turno "
+
+10 "Il tuo avversario torna indietro di 5 caselle "
