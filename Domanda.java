@@ -1,3 +1,5 @@
+package GiuocoDellOrca;
+
 import java.util.Objects;
 
 public class Domanda {
@@ -39,10 +41,14 @@ public class Domanda {
 	//prende la risposta data in input dal giocatore e verifica che sia corretta
 	public boolean corretta(char risposta) {
 		if(risposta == getRispostaGiusta()) {
+			System.out.println("corretto\n");
 			return true;
 		}
-		else
+		else {
+			System.out.println("sbagliato\n");
 			return false;
+		}
+			
 	}
 	
 	public String toString() {
