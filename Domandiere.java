@@ -1,70 +1,59 @@
-package GiuocoDellOrca;
-
-public class Domandiere {
-	private Domanda[] domandiere;
-	private char[] risposte;
-	
-	private int i = 0;
-	domandiere[i] = new Domanda("Qual è la capitale dell'Italia?\n", "Milano", "Udine", "Roma", 'c');
-	i++;
-	domandiere[i] = new Domanda("Qual è lo stato con più persone al mondo?\n", "Cina", "India", "Stati Uniti", 'a');
-	i++;
-	
-	//prende la domanda dall'array casualmente e la mostra a schermo
-	public Domanda getDomanda() {
-		return domandiere[2];
-	}
-	
-	/*public void setDomanda() {
-		Domanda d = new Domanda(String domanda, String primaScelta, String secondaScelta, String terzaScelta, 
-								String rispostaGiusta);
-	}*/
-	
-	
-	
-	
-}
-
-/*
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class Domandiere
 {
-	public static void main(String[] args) throws IOException
+	private Domanda[] domande = new Domanda[50];	
+	private char[] risposte = new char[50];;
+	int cnt;
+	
+	public void leggiFile() throws IOException
 	{
 		FileReader domande = new FileReader("G:\\scuola\\4IA\\Informatica\\Java\\Giuoco dell'Orca\\Domande.txt");
 		BufferedReader lettore = new BufferedReader(domande);
 		
-		//System.out.println(lettore.readLine()); non funziona bene
 		String riga = lettore.readLine();//lettura di una riga del file
 		
-		int i = 0;
-		int domanda = (int)(Math.random()*50);
-		while(i <= domanda) //fino a quando la riga nel file non è vuta, continua a leggere
+		int i = 3;
+		while(i <= 301) //fino a quando la riga nel file non è vuota, continua a leggere
 		{
-			System.out.println(riga);
 			riga = lettore.readLine();
-			
-			
-			
-			//il valore da controllare (49 e 50) dovrà essere variabile che cambia in base al numero estratto a random
-			if(riga.charAt(0) == 49 && riga.charAt(1) == 50) {
-				System.out.println(riga);
-				riga = lettore.readLine();
-				System.out.println(riga);
+					
+			if((riga.charAt(0) >= 49 || riga.charAt(0) <= 53) 
+				&&(riga.charAt(0) >= 13 || (riga.charAt(1) >= 49 && riga.charAt(1) <= 57)))
+			{
+				char risposta = riga.charAt(3);
+				String domanda = lettore.readLine();
+				//risposta = lettore.readLine();
+				//r1 = risposta;
+				String r1 = lettore.readLine();
+				String r2 = lettore.readLine();
+				String r3 = lettore.readLine();
+				
+				aggiungiDomanda(new Domanda(domanda, r1, r2, r3, risposta));
 				
 				//giocatore.setDomandaFatta(data.charAt(0), data.charAt(1));
 				
-				break; //una volta che stampa esce dal ciclo
+				break; //una volta che crea la domanda esce dal ciclo
 			}
 			
 			riga = lettore.readLine(); //legge la prossima linea del file
 			i++;
 		}
 		
-		//lettore=null;
+		lettore=null;
 		domande.close();
 	}
-}*/
+	
+	public void aggiungiDomanda(Domanda d)
+	{
+		domande[cnt] = d;
+		risposte[cnt] = d.getRispostaGiusta();
+		cnt++;
+	}
+	
+	public String getDomanda(int pos)  {return domande[pos].toString();}
+	
+	public char getRisposta(int pos)  {return risposte[pos];}
+}

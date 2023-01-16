@@ -1,5 +1,3 @@
-package GiuocoDellOrca;
-
 import java.util.Objects;
 
 public class Domanda {
@@ -17,45 +15,26 @@ public class Domanda {
 		this.rispostaGiusta = rispostaGiusta;
 	}
 
-	public String getDomanda() {
-		return domanda;
-	}
+	public String getDomanda() {return domanda;}
 
-	public void setDomanda(String domanda) {
-		this.domanda = domanda;
-	}
+	public void setDomanda(String domanda) {this.domanda = domanda;}
 
-	public String getPrimaScelta() {
-		return primaScelta;
-	}
+	public String getPrimaScelta() {return primaScelta;}
 
-	public void setPrimaScelta(String primaScelta) {
-		this.primaScelta = primaScelta;
-	}
+	public void setPrimaScelta(String primaScelta) {this.primaScelta = primaScelta;}
 
-	public String getSecondaScelta() {
-		return secondaScelta;
-	}
+	public String getSecondaScelta() {return secondaScelta;}
 
-	public void setSecondaScelta(String secondaScelta) {
-		this.secondaScelta = secondaScelta;
-	}
+	public void setSecondaScelta(String secondaScelta) {this.secondaScelta = secondaScelta;}
 
-	public String getTerzaScelta() {
-		return terzaScelta;
-	}
+	public String getTerzaScelta() {return terzaScelta;}
 
-	public void setTerzaScelta(String terzaScelta) {
-		this.terzaScelta = terzaScelta;
-	}
+	public void setTerzaScelta(String terzaScelta) {this.terzaScelta = terzaScelta;}
 
-	public char getRispostaGiusta() {
-		return rispostaGiusta;
-	}
+	public char getRispostaGiusta() {return rispostaGiusta;}
 
-	public void setRispostaGiusta(char rispostaGiusta) {
-		this.rispostaGiusta = rispostaGiusta;
-	}
+	public void setRispostaGiusta(char rispostaGiusta) {this.rispostaGiusta = rispostaGiusta;}
+	
 	
 	//prende la risposta data in input dal giocatore e verifica che sia corretta
 	public boolean corretta(char risposta) {

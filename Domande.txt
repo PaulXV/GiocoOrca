@@ -1,12 +1,12 @@
 "Quando ti viene fornita una domanda, inserisci da tastiera la lettera con la risposta corretta tra quelle proposte\n" (da mettere nelle regole)
 
-1 giusta: c
+1 c
 "Qual è la capitale dell'Italia?\n"
 "a) Milano\n"
 "b) Udine\n"
 "c) Roma\n"
 
-2 giusta: a
+2 a
 "Qual è lo stato con più persone al mondo?\n"
 "a) Cina\n"
 "b) India\n"
