@@ -1,0 +1,300 @@
+-
+1 c
+Qual è la capitale dell'Italia?
+a) Milano
+b) Udine
+c) Roma
+-
+2 a
+Qual è lo stato con più persone al mondo?
+a) Cina
+b) India
+c) Stati Uniti
+-
+3 b
+Di che colore era il cavallo di Napoleone?\n
+a) Grigio
+b) Bianco
+c) Nero
+-
+4 c
+Dove si trova Foggia?
+a) Calabria
+b) Molise
+c) Puglia
+-
+5 b
+Come si chiama l'azienda informatica che ha come logo una mela?
+a) Melinda
+b) Apple
+c) Mac
+-
+6 a
+Chi ha vinto l'ultimo mondiale di calcio?
+a) Argentina
+b) Francia
+c) Bangladesh
+-
+7 b
+Qual è il giorno dell'anno in cui si festeggia il Natale?
+a) 24 Dicembre
+b) 25 Dicembre
+c) 26 Dicembre
+-
+8 a
+In quale occasione si usa mettere una cicogna fuori dalla porta di casa?
+a) Quando nasce un bambino
+b) A Natale
+c) Dopo il matrimonio
+-
+9 b
+In che anni si svolse la Prima guerra mondiale?
+a) 1915-1918
+b) 1914-1918
+c) 1914-1919
+-
+10a
+In che anni si svolse la Seconda guerra mondiale?
+a) 1939-1945
+b) 1940-1945
+c) 1939-1944
+-
+11c
+In che anno venne scoperta l'America?
+a) 1494
+b) 1482
+c) 1492
+-
+12a
+In che anni avvenne la Rivoluzione francese?
+a) 1789-1799
+b) 1691-1699
+c) 1769-1779
+-
+13b
+Quanto fa 2 + 2 * 4 / 2?
+a) 5
+b) 6
+c) 8
+-
+14c
+Quanto fa 1500 / 0?
+a) 0
+b) 1500
+c) impossibile
+-
+15a
+Quanto fa 0 / 2?
+a) 0
+b) impossibile
+c) 2
+-
+16b
+In che anno l'Italia vinse l'ultimo mondiale?
+a) 2020
+b) 2006
+c) 1982
+-
+17c
+Chi ha vinto Sanremo 2022?
+a) Gianni Morandi
+b) Elisa
+c) Mahmood e Blanco
+-
+18b
+Quali sono i doni che i Re Magi portarono a Gesù?
+a) oro, incenso, birra
+b) oro, incenso, mirra
+c) diamanti, incenso, mirra
+-
+19a
+Il mese di gennaio in che stagione si trova?
+a) Inverno
+b) Autunno
+c) Primavera
+-
+20b
+In che stagione si trova il mese di maggio?
+a) Autunno
+b) Primavera
+c) Estate
+-
+21c
+In che stagione si trova il mese di dicembre?
+a) Autunno
+b) Inverno
+c) Autunno e Inverno
+-
+22b
+Cosa succede premendo alt + f4 sul computer?
+a) Aumenta le prestazione del computer
+b) Si chiude la pagina o l'applicazione su cui si ci trova
+c) Si apre il manuale per l'utente
+-
+23a
+Cosa succede scrivendo 'logoff' e premendo invio sul terminale?
+a) Esegue la disconessione da quel account
+b) Spegne il computer
+c) Crea un logo
+-
+24b
+Come si chiama il pittore che ha disegnato la Gioconda?
+a) Giotto
+b) Leonardo Da Vinci
+c) Van Gogh
+-
+25c
+Come si chiama il pittore famoso per aver disegnato un cerchio perfetto?
+a) Leonardo Da Vinci
+b) Van Gogh
+c) Giotto
+-
+26b
+Qual è la traduzione in italiano di 'mouse'?
+a) Mai
+b) Topo
+c) Misero
+-
+27a
+In che anno è stato inventato il primo telefono?
+a) 1871
+b) 1907
+c) 1859
+-
+28a
+In che anno è stato inventato Whatsapp?
+a) 2009
+b) 2012
+c) 2007
+-
+29c
+In che anno venne rilasciato Google?
+a) 2000
+b) 1992
+c) 1997
+-
+30b
+In che anno è stata creata la Coca Cola?
+a) 1904
+b) 1886
+c) 1924
+-
+31a
+In che anno è stata inventata la Nutella?
+a) 1964
+b) 1952
+c) 1985
+-
+32b
+Dove si trova la ruota panoramica più grande al mondo?
+a) Londra
+b) Dubai
+c) Cina
+-
+33c
+Dove si trova il grattacielo più grande al mondo?
+a) Cina
+b) New York
+c) Dubai
+-
+34a
+In che continente si trova la Colombia?
+a) America
+b) Africa
+c) Asia
+-
+35b
+In che continente si trova la Bielorussia?
+a) Russia
+b) Europa
+c) America
+-
+36c
+Qual è la formula chimica dell'acqua?
+a) HO2
+b) H2O2
+c) H2O
+-
+37b
+Qual è il primo elemento della tavola periodica?
+a) Elio
+b) Idrogeno
+c) Litio
+-
+38a
+Qual è l'elemento principale che compone l'aria?
+a) Azoto
+b) Ossigeno
+c) argon
+-
+39c
+In che squadra gioca attualmente Messi?
+a) Barcellona
+b) Real Madrid
+c) Paris-Saint-Germain
+-
+40b
+Chi scrisse la Divina Commedia?
+a) Giacomo Leopardi
+b) Dante Alighieri
+c) Ludovico Ariosto
+-
+41a
+Chi scrisse l'Odissea?
+a) Omero
+b) Dante Alighieri
+c) Ludovico Ariosto
+-
+42b
+Quante stelle ci sono nella bandiera americana?
+a) 49
+b) 50
+c) 52
+-
+43c
+Quante strisce ci sono nella bandiera americana?
+a) 11
+b) 15
+c) 13
+-
+44a
+Quanti giorni ci vogliono perhè la Terra compia un giro completo attorno al Sole?
+a) 365
+b) 7
+c) 1
+-
+45b
+Qual è la capitale della Francia?
+a) Nizza
+b) Parigi
+c) Ginevra
+-
+46c
+Qual è la capitale del Brasile?
+a) Rio de Janeiro
+b) San Paolo
+c) Brasilia
+-
+47a
+Qual è la capitale del Canada?
+a) Ottawa
+b) Vancouver
+c) Brochet
+-
+48c
+Qual è la capitale della Norvegia?
+a) Helsinki
+b) Stoccolma
+c) Oslo
+-
+49b
+Qual è il punto più basso della Terra?
+a) Mar Nero
+b) Fossa delle Marianne
+c) Etna
+-
+50c
+Chi scrisse Harry Potter?
+a) Ernest Hemingway
+b) George Orwell
+c) J.K. Rowling
